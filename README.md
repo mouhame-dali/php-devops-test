@@ -24,3 +24,19 @@ Ensure you have the following installed before running the project:
 git clone https://github.com/your-username/your-repository-name.git](https://github.com/mouhame-dali/php-devops-test.git
 cd php-devops-test
 docker-compose up --build -d
+# API Documentation
+
+This project exposes the following API endpoints for user authentication.
+---
+
+## API Endpoints
+
+### GET `http://127.0.0.1/api/uuid`
+### POST `http://127.0.0.1/api/login`
+#### Request Body
+```json
+{"username":"admin","password":"secret"}
+### POST `http://127.0.0.1/api/protected`
+#### Header Body
+Authorization: Bearer <your-jwt-token-here>
+
