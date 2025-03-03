@@ -21,7 +21,7 @@ Ensure you have the following installed before running the project:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git](https://github.com/mouhame-dali/php-devops-test.git
+git clone https://github.com/mouhame-dali/php-devops-test.git
 cd php-devops-test
 docker-compose up --build -d
 # API Documentation
