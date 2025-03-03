@@ -1,4 +1,4 @@
-# Project Name
+# Php devops technical test...
 
 This project provides a secure user authentication system using JWT (JSON Web Token). It includes API endpoints for user login, where users can login with their email and password and receive a JWT token for subsequent authentication.
 To optimize routing, nikic/fast-route is used for efficient and fast route handling. For validation of user input, the illuminate/validation package is integrated to ensure data integrity and security when handling user registration and login forms. Error handling is managed through filp/whoops, which provides a detailed and user-friendly error reporting system, making it easier to debug during development.
