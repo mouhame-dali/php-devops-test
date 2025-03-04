@@ -21,6 +21,8 @@ COPY ./httpd.conf /usr/local/apache2/conf/httpd.conf
 # Step 6: Copy the application files to the container
 COPY . /var/www/html/
 
+RUN composer install
+
 # Step 7: Expose port 80 for Apache
 EXPOSE 80
 
